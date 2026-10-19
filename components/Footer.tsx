@@ -122,7 +122,17 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center font-cond text-xs uppercase tracking-[0.25em] text-bone/40">
-        Bella Black — Desde {site.since}. Todos os direitos reservados.
+        <p>Bella Black — Desde {site.since}. Todos os direitos reservados.</p>
+        <p className="mt-2 text-[10px] tracking-[0.2em]">
+          <a
+            href="https://rafaelrazeira.com.br/vitrine-digital"
+            target="_blank"
+            rel="noopener"
+            className="transition-colors hover:text-bone/70"
+          >
+            vitrine por Rafael Razeira Estúdio
+          </a>
+        </p>
       </div>
     </footer>
   );
